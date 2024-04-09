@@ -1,4 +1,4 @@
-# AR_object_visualization
+# simple_AR_object_visualization
 OpenCV를 이용해서 카메라의 영상을 Calibration하고 AR Object를 시각화하는 프로그램이다.
 
 ## ar_object_visualization.py
@@ -29,7 +29,7 @@ box_upper = board_cellsize * np.array([[5, 0, -1], [6, 2, -1], [8, 3, -1], [6, 4
 - ESC : 종료
 
 #### 결과
-
+https://github.com/yhj0329/simple_AR_object_visualization/assets/102153681/3becb986-9659-482b-9bd1-f76edf9ca432
 
 ## camera_calibration.py
 카메라의 영상을 Calibration 하는 기능이다.
@@ -49,5 +49,5 @@ box_upper = board_cellsize * np.array([[5, 0, -1], [6, 2, -1], [8, 3, -1], [6, 4
 - ESC : 종료
 
 #### 결과
-
+![camera_calibration](https://github.com/yhj0329/simple_AR_object_visualization/assets/102153681/5ee21e42-70ce-4c37-866b-f3371c7a561b)
 
